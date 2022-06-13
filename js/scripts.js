@@ -20,7 +20,7 @@ TaskList.prototype.findTask = function(number) {
 	return false;	
 };
 
-TaskList.prototype.deleteTask = function (number) {
+TaskList.prototype.deleteTask = function(number) {
 	if(this.tasks[number] === undefined) {
 		return false;
 	}
@@ -28,7 +28,14 @@ TaskList.prototype.deleteTask = function (number) {
 	return true;
 };
 
-function Task(nameOfTask) {
+function Task(nameOfTask, taskDone, supplies) {
 	this.nameOfTask = nameOfTask;
+	this.taskDone = "incomplete"
+	this.supplies = supplies;
 }
+
+Task.prototype.complete = function(taskDone){
+	this.taskDone = "complete"
+	return "Great job, this is complete!"
+};
 
