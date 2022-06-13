@@ -1,7 +1,7 @@
 # _New Project_
 
-#### By _**Liam Campbell_
-#### By _**Kai Kohlsdorf_
+#### By **_Liam Campbell_
+#### By **_Kai Kohlsdorf_
 
 #### _{Brief description of application}_
 
