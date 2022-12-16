@@ -1,4 +1,4 @@
-# _New Project_
+# _To do list_
 
 #### By **_Liam Campbell_
 #### By **_Kai Kohlsdorf_
@@ -17,7 +17,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This is a simple todo list that a user can add and remove items from_
 
 ## Setup/Installation Requirements
 
